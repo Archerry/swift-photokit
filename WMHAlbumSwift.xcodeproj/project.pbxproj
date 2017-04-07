@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB6D14DC1E8F483A0068B5C4 /* PhotoBigImgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D14DB1E8F483A0068B5C4 /* PhotoBigImgCollectionViewCell.swift */; };
 		CB71CE301E8B523B006398F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71CE2F1E8B523B006398F0 /* AppDelegate.swift */; };
 		CB71CE321E8B523B006398F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71CE311E8B523B006398F0 /* ViewController.swift */; };
 		CB71CE351E8B523B006398F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB71CE331E8B523B006398F0 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		CB71CE3A1E8B523B006398F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB71CE381E8B523B006398F0 /* LaunchScreen.storyboard */; };
 		CB71CE451E8B523B006398F0 /* WMHAlbumSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71CE441E8B523B006398F0 /* WMHAlbumSwiftTests.swift */; };
 		CB71CE501E8B523B006398F0 /* WMHAlbumSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71CE4F1E8B523B006398F0 /* WMHAlbumSwiftUITests.swift */; };
+		CB71CE611E8B84DE006398F0 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71CE601E8B84DE006398F0 /* PhotoViewController.swift */; };
+		CB8A5C0C1E8DFEA100C2A928 /* PhotoListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A5C0B1E8DFEA100C2A928 /* PhotoListCollectionViewCell.swift */; };
+		CB8A5C0E1E8E4E1300C2A928 /* PhotoBigImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A5C0D1E8E4E1300C2A928 /* PhotoBigImgViewController.swift */; };
+		CBBF74281E8D0EFE00E99995 /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF74271E8D0EFE00E99995 /* PhotoListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB6D14DB1E8F483A0068B5C4 /* PhotoBigImgCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBigImgCollectionViewCell.swift; sourceTree = "<group>"; };
 		CB71CE2C1E8B523B006398F0 /* WMHAlbumSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMHAlbumSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB71CE2F1E8B523B006398F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB71CE311E8B523B006398F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		CB71CE4B1E8B523B006398F0 /* WMHAlbumSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMHAlbumSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB71CE4F1E8B523B006398F0 /* WMHAlbumSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMHAlbumSwiftUITests.swift; sourceTree = "<group>"; };
 		CB71CE511E8B523B006398F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB71CE601E8B84DE006398F0 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		CB8A5C0B1E8DFEA100C2A928 /* PhotoListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewCell.swift; sourceTree = "<group>"; };
+		CB8A5C0D1E8E4E1300C2A928 /* PhotoBigImgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBigImgViewController.swift; sourceTree = "<group>"; };
+		CBBF74271E8D0EFE00E99995 /* PhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,13 @@
 		CB71CE2E1E8B523B006398F0 /* WMHAlbumSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CB8A5C0A1E8DFE7900C2A928 /* View */,
+				CB8A5C091E8DFE7100C2A928 /* Controller */,
 				CB71CE2F1E8B523B006398F0 /* AppDelegate.swift */,
 				CB71CE311E8B523B006398F0 /* ViewController.swift */,
+				CB71CE601E8B84DE006398F0 /* PhotoViewController.swift */,
+				CBBF74271E8D0EFE00E99995 /* PhotoListViewController.swift */,
+				CB8A5C0D1E8E4E1300C2A928 /* PhotoBigImgViewController.swift */,
 				CB71CE331E8B523B006398F0 /* Main.storyboard */,
 				CB71CE361E8B523B006398F0 /* Assets.xcassets */,
 				CB71CE381E8B523B006398F0 /* LaunchScreen.storyboard */,
@@ -123,6 +138,22 @@
 				CB71CE511E8B523B006398F0 /* Info.plist */,
 			);
 			path = WMHAlbumSwiftUITests;
+			sourceTree = "<group>";
+		};
+		CB8A5C091E8DFE7100C2A928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB8A5C0A1E8DFE7900C2A928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB8A5C0B1E8DFEA100C2A928 /* PhotoListCollectionViewCell.swift */,
+				CB6D14DB1E8F483A0068B5C4 /* PhotoBigImgCollectionViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +224,7 @@
 				TargetAttributes = {
 					CB71CE2B1E8B523B006398F0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KUVD96Z783;
 						ProvisioningStyle = Automatic;
 					};
 					CB71CE3F1E8B523B006398F0 = {
@@ -259,8 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6D14DC1E8F483A0068B5C4 /* PhotoBigImgCollectionViewCell.swift in Sources */,
 				CB71CE321E8B523B006398F0 /* ViewController.swift in Sources */,
+				CBBF74281E8D0EFE00E99995 /* PhotoListViewController.swift in Sources */,
+				CB8A5C0C1E8DFEA100C2A928 /* PhotoListCollectionViewCell.swift in Sources */,
 				CB71CE301E8B523B006398F0 /* AppDelegate.swift in Sources */,
+				CB8A5C0E1E8E4E1300C2A928 /* PhotoBigImgViewController.swift in Sources */,
+				CB71CE611E8B84DE006398F0 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +449,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KUVD96Z783;
 				INFOPLIST_FILE = WMHAlbumSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = heheda.WMHAlbumSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CH999.ch999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +462,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KUVD96Z783;
 				INFOPLIST_FILE = WMHAlbumSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = heheda.WMHAlbumSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CH999.ch999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -505,6 +544,7 @@
 				CB71CE561E8B523B006398F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB71CE571E8B523B006398F0 /* Build configuration list for PBXNativeTarget "WMHAlbumSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +553,7 @@
 				CB71CE591E8B523B006398F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB71CE5A1E8B523B006398F0 /* Build configuration list for PBXNativeTarget "WMHAlbumSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +562,7 @@
 				CB71CE5C1E8B523B006398F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
